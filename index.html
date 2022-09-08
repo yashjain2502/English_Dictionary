@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Search</title>
+</head>
+<body>
+
+    <div class="outer">
+        <header>English Dictionary</header>
+        <div class="search-box">
+            <input type="text" placeholder="search a word" required spellcheck="false">
+            <i class="fas fa-search"></i>
+            <span class="matrial-icons">close</span>
+        </div>
+        <p class="info-text">Type any existing word and press enter to get meaning, examples, synonyms</p>
+        <ul>
+            <li class="word">
+                <div class="details">
+                    <p>__</p>
+                    <span>_ _</span>
+                </div>
+                <i class="fas fa-volume-up"></i>
+            </li>
+            <div class="content">
+                <li class="meaning">
+                    <div class="details">
+                        <p>Meaning</p>
+                        <span>_ _ _</span>
+                    </div>
+                </li>
+                <li class="example">
+                    <div class="details">
+                        <p>Example</p>
+                        <span>_ _ _</span>
+                    </div>
+                </li>
+                <li class="synonyms">
+                    <div class="details">
+                        <p>Synonyms</p>
+                        <div class="list"></div>
+                    </div>
+                </li>
+            </div>
+        </ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
